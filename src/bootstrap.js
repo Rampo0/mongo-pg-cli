@@ -9,10 +9,8 @@ module.exports = async (pg, mongodb, scriptFunc) => {
         await mongoClient.connect();
 
         await mongoClient.db('admin').command({ ping: 1 });
-        console.log('Connected successfully to mongo');
 
         await pgClient.connect();
-        console.log('Connected successfully to postgres');
 
         await scriptFunc(mongoClient, pgClient);
     } finally {
