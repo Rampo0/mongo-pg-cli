@@ -1,12 +1,16 @@
 {
   "name": "mongo-pg-cli",
   "version": "1.0.1",
-  "description": "",
+  "description": "A workspace to work with mongo and postgres client",
   "main": "index.js",
   "bin": "./commands.js",
   "scripts": {},
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "mongo postgres",
+    "mongo-pg-cli",
+    "mongo postgres workspace"
+  ],
+  "author": "rampoo",
   "license": "ISC",
   "dependencies": {
     "commander": "^7.2.0",
@@ -23,5 +27,13 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "mocha": "^8.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rampo0/mongo-pg-cli.git"
+  },
+  "homepage": "https://github.com/Rampo0/mongo-pg-cli#readme",
+  "bugs": {
+    "url": "https://github.com/Rampo0/mongo-pg-cli/issues"
   }
 }
