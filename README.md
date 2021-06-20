@@ -2,6 +2,10 @@
 
 A workspace to work with mongo and postgres client
 
+**Installation**
+
+```npm install -g mongo-pg-cli```
+
 **How to use :** <br>
 
 1. Go to workspace parent directory and create config.js
